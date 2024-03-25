@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: lightblue;
+}
+
+.headline {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  width: 40%; /* Set the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.listing-item {
+  border: 4px solid black; /* Border around the container */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding for space between content and border */
+  margin-bottom: 15px;
+}

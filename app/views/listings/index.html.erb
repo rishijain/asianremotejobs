@@ -1,0 +1,16 @@
+<div>
+  <h1>Listings</h1>
+</div>
+
+<div class="container">
+    <% @listings.each_with_index do |listing, index| %>
+      <div class="listing-item">
+        <p class="headline"><%= listing.title %></p>
+        <p class="listing-data">Company: <%= listing.company_name %></p>
+        <p class="listing-data">Position: <%= listing.position %></p>
+      </div>
+    <% end %>
+
+</div>
+
+
